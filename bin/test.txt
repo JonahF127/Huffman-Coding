@@ -1,0 +1,3 @@
+this file contains a message to be encoded.
+I am using this file to figure out if I can open the file if the user inputs it
+Otherwise, if there is no file, encode the message directly input by the user.

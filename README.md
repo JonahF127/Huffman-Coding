@@ -1,18 +1,10 @@
-## Getting Started
+## Huffman Coding
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Huffman Coding is a lossless data compression algorithm. The algorithm assigns codes to input characters based on the frequency of the character, rather than a fixed for each character. The codes assigned to the characters are also prefix codes, meaning that no code for a certain character is a prefix of the code for another character. 
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- The project contains two main folders, image_encoding and txt_encoding. 
+- In the image_encoding folder, running the ImageHuffman file and inputting an image will assign and print prefix codes for every different pixel value in the image. 
+- Running the Huffman file in the txt_encoding folder and inputting a txt file will assign and print prefix codes for every different character in the file. The prefix code string for the entire file will also be printed.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
